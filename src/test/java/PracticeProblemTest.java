@@ -11,6 +11,8 @@ public class PracticeProblemTest {
    @Test
    void circleAreaTest() {
       assertEquals(0.0, PracticeProblem.circleArea(0));
+      assertEquals(31415.926535897932, PracticeProblem.circleArea(100));
+      assertEquals(1256.6370614359173, PracticeProblem.circleArea(-20));
 
 
    }
